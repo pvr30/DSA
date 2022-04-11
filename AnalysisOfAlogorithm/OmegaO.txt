@@ -1,0 +1,7 @@
+- Omega O :- Represents exact or lower bound  
+
+Examples: 
+
+- 3n + 2 = O(1)  // ignore constant and leading element
+
+- 4n^2 + 5n + 1 = O(n)  // consider only lower bound

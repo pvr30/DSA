@@ -1,0 +1,7 @@
+-- Asymptotic Notations
+
+- Big O :- Represents exact or upper bound  
+
+- Theta :- Represents Exact bound
+
+- Omega :- Represents exact or lower bound

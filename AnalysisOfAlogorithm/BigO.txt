@@ -1,0 +1,7 @@
+- Big O :- Represents exact or upper bound  
+
+Examples: 
+
+- 3n + 2 = O(n)  // ignore constant and leading element
+
+- 4n^2 + 5n + 1 = O(n^2)  // consider only upper bound
