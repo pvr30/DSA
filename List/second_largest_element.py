@@ -19,3 +19,23 @@ def get_sec_lar_ele(l):
         return slar
 
 print(get_sec_lar_ele(l))
+
+l = [10, 10, 5]
+# efficent solution
+def get_sec_max(l):
+    if len(l) <= 1:
+        return None
+    lar = l[0]
+    slar = None
+
+    for x in l:
+        if x > lar:
+            slar = lar
+            lar = x
+        elif x != lar:
+            if slar == None or slar < x:
+                slar = x
+    return slar
+
+
+print(get_sec_max(l))
