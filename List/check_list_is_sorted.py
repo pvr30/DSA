@@ -17,3 +17,23 @@ def sorted_or_not(l):
 
 print(sorted_or_not(l))
     
+
+# check if array is sorted incresely or decrisly 
+arr1 = [1, 1, 1, 2, 3]
+arr2 = [4, 3, 1]
+
+def isSorted(arr,n):
+    flag1 = True
+    flag2 = True
+    for i in range(n-1):
+        if arr[i] > arr[i+1] and flag1:
+            flag1 = False
+        if arr[i] < arr[i+1] and flag2:
+            flag2 = False
+    
+    return int(flag1 or flag2)
+
+print(isSorted(arr1, len(arr1)))
+print(isSorted(arr2, len(arr2)))
+
+
