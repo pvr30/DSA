@@ -1,0 +1,71 @@
+-- Hashing --
+- " Hashing is a method of sorting and indexing data. The idea behind hashing is allow large amounts of data to be 
+indexed using keys."
+
+- Search, Insert, Delete -> O(1) an average
+
+=> Application of Hashing
+
+1. Dictionaries
+2. Database Indexing
+3. Cryptography
+4. Caches
+5. Symbol Table in Compilers/Interpreter
+6. Routes
+7. Getting Data From Database
+8. Many More...
+
+-- Why we need Hashing ?
+    - to reduce time complexity for searching
+
+    - Time complexity for search
+            1. Linear :- O(N)
+            2. Binary :- O(logN)
+            3. Hashing :- O(1)
+
+-- Hashing Terminology
+  - Hash Function :- It is a function that can be used to map of arbitary size to data of fixed size.
+  - Key :- Input data by user
+  - Hash value :- A value that is return by a hash function
+  - Hash Table :- It is a data structure which implements an associative array abstract data type, a structure that
+                  can map keys to values
+  - Collision :- A Collision occurs when two different keys to a hash function produce the same output.
+
+
+------------ Hash Function ----------------
+
+    1. Mod Function :- It helps to reduce space
+
+        h(x) = x % (totol no. of cells in hash Table)
+
+        Let's say h(8) = 8 % 10 = 8,
+                  h(15) = 15 % 10 = 5
+
+    2. Ascii Function :- For string
+
+        def modASCII(string, cellnumber):
+            total = 0
+            for i in string:
+                total += ord(i)
+            return total % cellnumber
+
+
+-- Properties of good hash function
+    - It distribute hash values uniformly across hash tables
+    - It has to use all the input data
+
+
+---- Collision Resolution Technique.
+        1.Direct Chaining
+        2. Open Addressing
+            1. Linear Probing
+            2. Quadratic Probing
+            3. Double Hashing
+        
+
+    1. Direct Chaining:- Implements the backets as List/LinkedList. Colliding elements are stored in a that list.
+
+
+    2. Open Addressing :- Colliding elements are stored in other vacant places in hashtable
+
+        1.Linear Probing :- find vacant places Linearaly
