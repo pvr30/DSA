@@ -57,6 +57,7 @@ indexed using keys."
 
 ---- Collision Resolution Technique.
         1.Direct Chaining
+        
         2. Open Addressing
             1. Linear Probing
             2. Quadratic Probing
