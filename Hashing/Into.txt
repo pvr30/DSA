@@ -64,9 +64,9 @@ indexed using keys."
             3. Double Hashing
         
 
-    1. Direct Chaining:- Implements the backets as List/LinkedList. Colliding elements are stored in a that list.
+    1. Direct Chaining:- Implements the buckets as List/LinkedList. Colliding elements are stored in a that list.
 
 
     2. Open Addressing :- Colliding elements are stored in other vacant places in hashtable
 
-        1.Linear Probing :- find vacant places Linearaly
+        1.Linear Probing :- find vacant places Linearly

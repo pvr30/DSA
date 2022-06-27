@@ -1,3 +1,4 @@
+# Chaining
 
 class MyHash:
     def __init__(self, b):
@@ -21,6 +22,7 @@ class MyHash:
 
     def getTable(self):
         return self.table
+
 
 h = MyHash(7)
 
