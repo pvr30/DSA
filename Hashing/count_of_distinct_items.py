@@ -14,3 +14,5 @@ def count_distinct_method2(l):
 
 print(count_distinct_method1([10, 20, 10, 30, 20]))
 print(count_distinct_method2([10, 20, 10, 30, 20]))
+
+
