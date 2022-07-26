@@ -1,11 +1,8 @@
 
-def fun(n):
-    if n == 0:
-        return
-    fun(n-1)
-    print(n)
-    fun(n-1)
-
+def fun(n, p):
+    if p == 1:
+        return n
+    return fun(n, p-1) * n
 
 if __name__ == '__main__':
-    fun(3)
+    print(fun(9, 9))
