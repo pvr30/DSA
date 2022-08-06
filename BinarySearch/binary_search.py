@@ -33,7 +33,7 @@ def bsearch(l, x, low, high):
     elif x > l[mid]:
         return bsearch(l, x, mid + 1, high)
     elif x < l[mid]:
-        return bsearch(l, x, low, high - 1)
+        return bsearch(l, x, low, mid - 1)
 
 
 def bsearchMain(l, x):
