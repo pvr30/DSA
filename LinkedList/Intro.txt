@@ -1,0 +1,20 @@
+--- What is LinkedList ?
+    - "LinkedList is a form of sequential collection and
+        it does have to be order. A linkdelist is made up
+        of independent nodes that may contain any type of data
+        and each node has a reference to the next node
+        in the link."
+
+-- LinkedList vs Arrays
+    - elements of linkdelist are independent objects
+    - variable size - the size of linkdelist is not predefined
+    - insertion and removals in linkdelist are very efficient
+    - accessing an element in array is very efficient in Arrays
+
+
+
+-- Types of LinkedList
+    - Singly Linked LinkedList
+    - Circular Singly LinkedList
+    - Doubly LinkedList
+    - Circular Doubly LinkedList
