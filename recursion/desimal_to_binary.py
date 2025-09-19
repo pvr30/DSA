@@ -5,4 +5,4 @@ def desimal_to_binary(n):
     print(n%2)
 
 if __name__ == "__main__":
-    desimal_to_binary(13)
+    desimal_to_binary(5)
